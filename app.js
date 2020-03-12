@@ -8,7 +8,7 @@ const server = new ApolloServer({
   resolvers,
   engine: {
     apiKey: process.env.ENGINE_API_KEY,
-    schemaTag: 'development',
+    schemaTag: process.env.NODE_ENV === 'development' ? 'development' : 'production',
   },
 });
 
