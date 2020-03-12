@@ -1,0 +1,23 @@
+{
+  "name": "swapi-apollo-server",
+  "version": "1.0.0",
+  "description": "graphql wrapping for open API https://swapi.co with apollo-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo": "^2.25.0",
+    "apollo-server": "^2.11.0",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "@types/node-fetch": "^2.5.5"
+  }
+}
